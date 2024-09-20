@@ -5,7 +5,7 @@ interface StyleChangerProps {
   onStyleChange: (newStyle: string) => void;
 }
 
-const StyleSwitcher: React.FC<StyleChangerProps> = ({
+const StyleChanger: React.FC<StyleChangerProps> = ({
   style,
   onStyleChange,
 }) => {
@@ -27,4 +27,4 @@ const StyleSwitcher: React.FC<StyleChangerProps> = ({
   );
 };
 
-export default StyleSwitcher;
+export default StyleChanger;
