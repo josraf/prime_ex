@@ -10,7 +10,7 @@ const StyleSwitcher: React.FC<StyleChangerProps> = ({
   onStyleChange,
 }) => {
   return (
-    <div className="style-switcher">
+    <div className="style-changer">
       <button
         onClick={() => onStyleChange("zebra")}
         className={style === "zebra" ? "active" : ""}

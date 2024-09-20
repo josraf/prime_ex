@@ -70,11 +70,11 @@ td button {
   background-color: #eef6ff;
 }
 
-.style-switcher {
+.style-changer {
   margin-bottom: 20px;
 }
 
-.style-switcher button {
+.style-changer button {
   padding: 10px 20px;
   border: 2px solid #4a90e2;
   background-color: #fff;
@@ -86,12 +86,12 @@ td button {
   transition: all 0.2s ease;
 }
 
-.style-switcher button:hover {
+.style-changer button:hover {
   background-color: #4a90e2;
   color: #fff;
 }
 
-.style-switcher button.active {
+.style-changer button.active {
   background-color: #4a90e2;
   color: #fff;
 }
@@ -123,11 +123,11 @@ td button {
   background-color: #e6f7ff;
 }
 
-.data-table.plain {
+.data-table.normal {
   border: 2px solid #000;
 }
 
-.data-table.plain th {
+.data-table.normal th {
   background-color: #000;
   color: #fff;
 }
@@ -147,7 +147,4 @@ button.collapse-btn:hover {
 .data-table tbody tr:hover {
   background-color: #eef6ff;
   transition: background-color 0.2s ease;
-}
-
-.collapsed {
 }
